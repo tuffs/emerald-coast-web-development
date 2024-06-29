@@ -1,23 +1,16 @@
-import logo from './logo.svg';
-import './App.css';
-
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div
+      className="App homepage_hero__container my-4"
+      style={{
+        backgroundImage: `url(${require('./images/emerald-coast-web-development-crab-island.png')})`,
+      }}>
+      <h1 className="site__title">
+        Emerald Coast <span className="darken">Web Development</span>
+      </h1>
+      <h3 className="site__subtitle">
+        A WEB DESIGN AND DEVELOPMENT FIRM
+      </h3>
     </div>
   );
 }
