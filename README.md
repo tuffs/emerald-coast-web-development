@@ -1,6 +1,12 @@
 ## EMERALD COAST WEB DEVELOPMENT
 ------------------------------------------------------------
 
-## TODOs
+## TODOS
 ------------------------------------------------------------
-  - IMPLEMENT: BACKEND SERVICES FOR CONTACT FORM, PORTFOLIO, FEATURED WORK, NEWSLETTER, AND ADMINISTRATORS
+  - IMPLEMENT:
+    - BACKEND SERVICES:
+      - CONTACT FORM
+      - PORTFOLIO
+      - FEATURED WORK
+      - NEWSLETTER
+      - ADMINISTRATORS
