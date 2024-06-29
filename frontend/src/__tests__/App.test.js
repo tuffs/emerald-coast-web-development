@@ -1,11 +1,14 @@
 import '@testing-library/jest-dom';
 import { render, /*screen */ } from '@testing-library/react';
+import { React, act } from 'react';
 import App from '../App';
 
 let page;
 
 beforeEach(() => {
-  page = render(<App />);
+  act(() => {
+    page = render(<App />);
+  });
 });
 
 test('renders website title of Emerald Coast Web Development', () => {

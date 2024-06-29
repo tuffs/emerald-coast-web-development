@@ -5,7 +5,7 @@ const Header = () => {
     <>
       <nav className="navbar navbar-expand-md navbar-light bg-light">
         <div className="container-fluid">
-          <a className="navbar-brand" href="#">EMERALD COAST WEB DEVELOPMENT</a>
+          <a className="navbar-brand" href="/">EMERALD COAST WEB DEVELOPMENT</a>
           <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span className="navbar-toggler-icon"></span>
           </button>
@@ -23,8 +23,8 @@ const Header = () => {
               <li className="nav-item technologies__link">
                 <a className="nav-link" aria-current="page" href="/technologies">TECHNOLOGIES</a>
               </li>
-              <li className="nav-item recent_work__link">
-                <a className="nav-link" aria-current="page" href="/recent-work">RECENT WORK</a>
+              <li className="nav-item blog__link">
+                <a className="nav-link" aria-current="page" href="/blog">BLOG</a>
               </li>
               <li className="nav-item contact_us__link">
                 <a className="nav-link" aria-current="page" href="/contact-us">CONTACT US</a>

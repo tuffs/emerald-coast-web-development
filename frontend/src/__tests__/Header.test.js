@@ -38,10 +38,10 @@ test('renders a link with the text TECHNOLOGIES', () => {
   expect(technologies__navigation_link).toHaveTextContent(/TECHNOLOGIES/);
 });
 
-test('renders a link with the text RECENT WORK', () => {
-  const recent_work__navigation_link = document.querySelector('.recent_work__link');
-  expect(recent_work__navigation_link).toBeInTheDocument();
-  expect(recent_work__navigation_link).toHaveTextContent(/RECENT WORK/);
+test('renders a link with the text BLOG', () => {
+  const blog__navigation_link = document.querySelector('.blog__link');
+  expect(blog__navigation_link).toBeInTheDocument();
+  expect(blog__navigation_link).toHaveTextContent(/BLOG/);
 });
 
 test('renders a link with the text CONTACT US', () => { 
