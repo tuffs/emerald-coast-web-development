@@ -1,11 +1,14 @@
 import '@testing-library/jest-dom';
 import { render, /*screen */ } from '@testing-library/react';
+import { act } from 'react';
 import Header from '../components/Header';
 
 let page;
 
 beforeEach(() => {
-  page = render(<Header />);
+  act(() => {
+    page = render(<Header />);
+  });
 });
 
 test('renders navbar for website', () => {

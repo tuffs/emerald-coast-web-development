@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 
 * {
   margin: 0;
@@ -7,7 +8,8 @@
 }
 
 .site__title {
-  color: white;
+  /* color: white; */
+  color: #35fbbb;
   text-shadow: 0 2px 4px black;
   font-family: "Oswald", sans-serif;
   font-weight: 700;
@@ -17,6 +19,25 @@
   padding-top: 3.335em;
   padding-bottom: 0;
   margin-bottom: 0;
+  letter-spacing: -.333rem;
+}
+
+.site__title_periwinkle {
+  color: #8889ff;
+}
+
+.site__subtitle {
+  color: fuchsia;
+  font-size: 33px;
+  line-height: 1.2;
+  text-transform: uppercase;
+  text-align: center;
+  padding-top: 0;
+  margin-top: 0;
+  font-family: "Raleway", "Helvetica Neue LT", "Hiragino Kaku Gothic Pro", "Helvetica", "Tahoma", "Arial", sans-serif;
+  font-weight: 600;
+  text-shadow: 0 2px 4px black;
+  letter-spacing: .2965rem;
 }
 
 .navbar {
@@ -37,22 +58,11 @@
   font-size: 1.355rem !important;
 }
 
-.darken {
-  color: #ccc;
-}
 
-.site__subtitle {
-  color: rgb(224, 115, 20);
-  font-weight: 700;
-  font-size: 30px;
-  line-height: 1.2;
-  text-transform: uppercase;
-  text-align: center;
-  padding-top: 0;
-  margin-top: 0;
-  font-family: "Helvetica Neue LT", "Hiragino Kaku Gothic Pro", "Helvetica", "Tahoma", "Arial", sans-serif;
-  font-weight: 500;
-  text-shadow: 0 2px 4px black;
+
+.exact_subtitle {
+  margin-left: 25%;
+  margin-right: 25%;
 }
 
 .homepage_hero__container {

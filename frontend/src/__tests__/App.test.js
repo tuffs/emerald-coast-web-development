@@ -1,24 +1,24 @@
 import '@testing-library/jest-dom';
 import { render, /*screen */ } from '@testing-library/react';
 import { React, act } from 'react';
-import App from '../App';
+import HomepageHero from '../components/HomepageHero';
 
 let page;
 
 beforeEach(() => {
   act(() => {
-    page = render(<App />);
+    page = render(<HomepageHero />);
   });
 });
 
-test('renders website title of Emerald Coast Web Development', () => {
+test('renders website title of EMERALD COAST WEB DEVELOPMENT', () => {
   const site__title = document.querySelector('.site__title');
   expect(site__title).toBeInTheDocument();
-  expect(site__title).toHaveTextContent(/Emerald Coast Web Development/);
+  expect(site__title).toHaveTextContent(/EMERALD COAST WEB DEVELOPMENT/);
 });
 
-test('renders the subtitle of "Custom Web Development Servies"', () => {
+test('renders the subtitle of "WEB DESIGN & CUSTOM SOFTWARE"', () => {
   const site__subtitle = document.querySelector('.site__subtitle');
   expect(site__subtitle).toBeInTheDocument();
-  expect(site__subtitle).toHaveTextContent(/A WEB DESIGN AND DEVELOPMENT FIRM/);
+  expect(site__subtitle).toHaveTextContent(/WEB DESIGN & CUSTOM SOFTWARE/);
 });

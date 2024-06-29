@@ -9,10 +9,10 @@ const HomepageHero = () => {
           backgroundImage: `url(${require('../images/emerald-coast-web-development-crab-island.png')})`,
         }}>
         <h1 className="site__title">
-          Emerald Coast <span className="darken">Web Development</span>
+          EMERALD COAST <span className="site__title_periwinkle">WEB DEVELOPMENT</span>
         </h1>
         <h3 className="site__subtitle">
-          A WEB DESIGN AND DEVELOPMENT FIRM
+          WEB DESIGN & CUSTOM SOFTWARE
         </h3>
       </div>
     </>
