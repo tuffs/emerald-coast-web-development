@@ -17,8 +17,8 @@ test('renders website title of EMERALD COAST WEB DEVELOPMENT', () => {
   expect(site__title).toHaveTextContent(/EMERALD COAST WEB DEVELOPMENT/);
 });
 
-test('renders the subtitle of "WEB DESIGN & CUSTOM SOFTWARE"', () => {
+test('renders the subtitle of "WEB DESIGN & APP DEVELOPMENT"', () => {
   const site__subtitle = document.querySelector('.site__subtitle');
   expect(site__subtitle).toBeInTheDocument();
-  expect(site__subtitle).toHaveTextContent(/WEB DESIGN & CUSTOM SOFTWARE/);
+  expect(site__subtitle).toHaveTextContent(/WEB DESIGN & APP DEVELOPMENT/);
 });
