@@ -29,6 +29,11 @@ html, body {
   margin-bottom: 0;
 }
 
+.navbar {
+  font-family: 'Oswald', sans-serif;
+  text-transform: uppercase;
+}
+
 .darken {
   color: #ccc;
 }
