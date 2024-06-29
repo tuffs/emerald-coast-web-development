@@ -30,8 +30,21 @@ html, body {
 }
 
 .navbar {
+  font-size: 1.355rem !important;
   font-family: 'Oswald', sans-serif;
   text-transform: uppercase;
+  padding-top: 1rem !important;
+  padding-bottom: 1rem !important;
+  padding-left: 1rem !important;
+}
+
+.nav-link {
+  padding-top: .9255rem;
+  font-size: 1.155rem !important;
+}
+
+.navbar-brand {
+  font-size: 1.355rem !important;
 }
 
 .darken {

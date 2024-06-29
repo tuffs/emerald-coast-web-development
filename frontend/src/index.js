@@ -5,11 +5,13 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import InstallBootstrap from './components/InstallBootstrap';
+import Header from './components/Header';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     <InstallBootstrap />
+    <Header />
     <App />
   </React.StrictMode>
 );
