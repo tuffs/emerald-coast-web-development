@@ -3,6 +3,9 @@
 
 ## TODOS
 ------------------------------------------------------------
+  - FRONTEND:
+    - COMPLETION OF PAGES
+    - ADDITION OF MEDIA QUERIES W/ PROPER BREAKPOINTS
   - IMPLEMENT:
     - BACKEND SERVICES:
       - CONTACT FORM

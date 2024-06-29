@@ -14,8 +14,38 @@ test('renders navbar for website', () => {
   expect(navigation_bar__element).toHaveTextContent(/EMERALD COAST WEB DEVELOPMENT/);
 });
 
-test('renders navigation links inside the navbar', () => {
-  const home__navigation_link = document.querySelector('.home__link');
-  expect(home__navigation_link).toBeInTheDocument();
-  expect(home__navigation_link).toHaveTextContent(/HOME/);
+test('renders a link with the text OUR PROCESS', () => {
+  const our_process__navigation_link = document.querySelector('.our_process__link');
+  expect(our_process__navigation_link).toBeInTheDocument();
+  expect(our_process__navigation_link).toHaveTextContent(/OUR PROCESS/);
+});
+
+test('renders a link with the text SERVICES', () => {
+  const services__navigation_link = document.querySelector('.services__link');
+  expect(services__navigation_link).toBeInTheDocument();
+  expect(services__navigation_link).toHaveTextContent(/SERVICES/);
+});
+
+test('renders a link with the text FEATURED WORK', () => {
+  const featured_work__navigation_link = document.querySelector('.featured_work__link');
+  expect(featured_work__navigation_link).toBeInTheDocument();
+  expect(featured_work__navigation_link).toHaveTextContent(/FEATURED WORK/);
+});
+
+test('renders a link with the text TECHNOLOGIES', () => {
+  const technologies__navigation_link = document.querySelector('.technologies__link');
+  expect(technologies__navigation_link).toBeInTheDocument();
+  expect(technologies__navigation_link).toHaveTextContent(/TECHNOLOGIES/);
+});
+
+test('renders a link with the text RECENT WORK', () => {
+  const recent_work__navigation_link = document.querySelector('.recent_work__link');
+  expect(recent_work__navigation_link).toBeInTheDocument();
+  expect(recent_work__navigation_link).toHaveTextContent(/RECENT WORK/);
+});
+
+test('renders a link with the text CONTACT US', () => { 
+  const contact_us__navigation_link = document.querySelector('.contact_us__link');
+  expect(contact_us__navigation_link).toBeInTheDocument();
+  expect(contact_us__navigation_link).toHaveTextContent(/CONTACT US/);
 });
