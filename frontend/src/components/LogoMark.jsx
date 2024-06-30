@@ -1,4 +1,4 @@
-const LogoMark = ({ title_one, title_two, subtitle }) => {
+const LogoMark = ({ title__part_one, title__part_two, subtitle }) => {
   return (
     <>
       <div
@@ -6,7 +6,7 @@ const LogoMark = ({ title_one, title_two, subtitle }) => {
         style={{backgroundImage:`url(${require('../images/emerald-coast-web-development-crab-island.png')})`}}
       >
         <h1 className="site__title">
-          {title_one} <span className="site__title_periwinkle">{title_two}</span>
+          {title__part_one} <span className="site__title_periwinkle">{title__part_two}</span>
         </h1>
         <h3
           className="site__subtitle"

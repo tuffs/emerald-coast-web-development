@@ -40,12 +40,17 @@
   letter-spacing: .444rem;
 }
 
+.content_boards__width {
+  width: 85%;
+}
+
 .sub_heading {
-  font-size: 32px;
+  font-size: 48px;
   font-family: "Raleway", "Helvetica Neue LT", "Hiragino Kaku Gothic Pro", "Helvetica", "Tahoma", "Arial", sans-serif;
-  font-weight: 600;
+  font-weight: 500;
   padding-top: 2rem;
-  padding-bottom: 2rem;
+  padding-bottom: 0;
+  margin-bottom: 0;
 }
 
 .orange_text {
@@ -53,6 +58,7 @@
 }
 
 .lead {
+  font-family: "Raleway", "Helvetica Neue LT", "Hiragino Kaku Gothic Pro", "Helvetica", "Tahoma", "Arial", sans-serif;
   font-size: 1.555rem !important;
 }
 
@@ -71,10 +77,19 @@
 }
 
 .navbar-brand {
+  color: #35fbbb;
   font-size: 1.355rem !important;
+  font-weight: 500;
+  text-shadow: 0 .075rem .095rem black;
 }
 
+.periwinkle_text {
+  color:#8889ff !important;
+}
 
+.navbar-brand:hover {
+  color: #35fbbb !important;
+}
 
 .exact_subtitle {
   margin-left: 25%;
