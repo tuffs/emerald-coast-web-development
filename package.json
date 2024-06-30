@@ -1,7 +1,8 @@
 {
-  "name": "backend",
+  "name": "emerald-coast-web-development--backend",
   "version": "0.1.0",
   "description": "Backend for Emerald Coast Web Development",
+  "type": "module",
   "main": "server.js",
   "scripts": {
     "start": "node ./backend/server.js",
